@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding</title>
+  </head>
+  <body>
+    <header class="header"></header>
+
+    <main>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h1>Дмитро & Юстина</h1>
+          <svg></svg>
+          <h2>12 травня 2024</h2>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h2>Дорогі гості</h2>
+          <h3>раді запросити вас на святкування нашого весілля</h3>
+          <svg></svg>
+          <h3>Ми з нетерпінням чекаємо на вас</h3>
+          <h2>12 травня 2024</h2>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h2>Місце проведення</h2>
+          <h3>Ресторан "Campus Community"</h3>
+          <iframe
+            class="map-location"
+            src="https://www.google.com/maps/place/725400+%D0%A0%D0%B0%D0%B4%D1%96%D0%B2%D1%86%D1%96,+%D0%A0%D1%83%D0%BC%D1%83%D0%BD%D1%96%D1%8F/@47.8405287,25.8747332,13z/data=!3m1!4b1!4m6!3m5!1s0x473445f42f9d91ab:0x7845bc2de0362dcb!8m2!3d47.8408505!4d25.9138305!16zL20vMDRicjJt?entry=ttu"
+            width="100%"
+            height="220"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h2>Програма дня</h2>
+          <ul>
+            <li>
+              <img src="" alt="" />
+              <h4>13:00 вінчання</h4>
+            </li>
+            <li>
+              <img src="" alt="" />
+              <h4>
+                17:00 ресторан ( Nordic Twins Calea Bucovinei FN, Rădăuți
+                725400, Румунія)
+              </h4>
+            </li>
+            <li>
+              <img src="" alt="" />
+              <h4>22:00 розрізання торта</h4>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h2>Фотографії</h2>
+          <svg></svg>
+          <h3>Фото з весілля ви можете завантажити з нашого телеграм каналу</h3>
+          <button>ВСТУПИТИ В КАНАЛ</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <h2>До весілля</h2>
+          <!-- відрахунок часу -->
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+          <div class="modal">
+<h2>Дорогі гості</h2>
+<h3>Підтвердіть, будь ласка, свою присутність на нашому святі</h3>
+<form action="">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    
+</form>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <div class="container">
+          <img src="" alt="" />
+        </div>
+      </section>
+    </footer>
+
+  </body>
+</html>
