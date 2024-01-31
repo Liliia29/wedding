@@ -62,38 +62,152 @@ ul{
     }
 }
 
-.container-header{
+.container_header{
     background-color: rgba(191, 173, 163, 0.58);
     /* position: absolute; */
-    height: 276px;
-    width: 814px;
-    
-    margin: 0;
+    /* height: 522px;
+    width: 814px; */
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 24px; */
+    /* margin: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    border: 0;
-    padding-top: 30px;
+    padding-top: 30px; */
     text-align: center;
     color: #ffffffff;
     
 }
 
+.container_vitanja{
+    background-color: rgba(255, 255, 255, 0.66);
+    color: black;
+}
+
+
 
 .headline {
-    padding-top: 588px;
-    padding-bottom: 108px;
+    /* padding-top: 308px;
+    padding-bottom: 108px; */
     max-width: 1540px;
+    max-height: 905px;
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/snapedit_1706646980973кк.png);
-    border: 1px solid #000000;
     box-sizing: border-box;
+}
 
-    
-    
+.vitanja{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    max-width: 1540px;
+    max-height: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)), url(../image/pexels-emma-bauso-2253870\ \(1\).jpg);
+    box-sizing: border-box;
+}
+
+.restoran{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    max-width: 1540px;
+    max-height: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/pexels-nathan-cowley-1128782.jpg);
+    box-sizing: border-box;
+}
+
+.container_restoran{
+    /* background-color: rgba(191, 173, 163, 0.58); */
+    /* position: absolute; */
+    /* height: 522px;
+    width: 814px; */
+    /* padding-top: 25px;
+    padding-bottom: 20px; */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 24px; */
+    /* margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 30px; */
+    text-align: center;
+    color: #ffffffff;
+}
+
+.palitra-color{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding: 0 24px; */
+    /* margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 30px; */
+    text-align: center;
+    color: #ffffffff;
+}
+
+.program-day{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    max-width: 1540px;
+    max-height: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/фоннн.jpg);
+    box-sizing: border-box;
+}
+
+.photo{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    max-width: 1540px;
+    max-height: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/Фотофон.jpg);
+    box-sizing: border-box;
+}
+
+.wedding-time{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background-color: #ffffff;
+
+}
+
+.text-brand-color{
+        font-size: inherit;
+    color: #99bfc5;
+    font-size: 30px;
 }
