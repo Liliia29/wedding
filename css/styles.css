@@ -254,7 +254,7 @@ ul{
     width: auto;
     max-width: 100%;
     padding-top: 30px;
-    border: 1px solid #99bfc5 ;
+    border: 1px solid #99bfc5;
     background-color: #99bfc5;
     padding: 18px 30px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -266,4 +266,25 @@ button:hover{
     /* border: 1px solid #99bfc5 ;
     background-color: #99bfc5; */
     
+}
+
+.wedding-forma{
+    padding-top: 85px;
+    padding-bottom: 85px;
+    max-width: 1540px;
+    max-height: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, rgba(118,118,118, 0.1), rgba(118,118,118, 0.1)), url(../image/pexels-becerra-govea-photo-6141802.jpg);
+    box-sizing: border-box;
+}
+
+.modal{
+background-color: #FFFFFF;
+color: black;
+padding: 34px 70px;
+text-align: center;
 }
