@@ -4,8 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Gothic+A1&family=Old+Standard+TT&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header class="header">
       <section class="headline">
@@ -24,11 +36,13 @@
         <div class="container">
           <div class="container_header container_vitanja">
             <span class="text-brand-color">°</span>
-            <h2>Дорогі гості</h2>
-            <h3>раді запросити вас на святкування нашого весілля</h3>
+            <h2 class="title title-vitanja">Дорогі гості</h2>
+            <h3 class="text text-vitanja">
+              раді запросити вас на святкування нашого весілля
+            </h3>
             <svg></svg>
-            <h3>Ми з нетерпінням чекаємо на вас</h3>
-            <h2>12 травня 2024</h2>
+            <h3 class="text text-vitanja">Ми з нетерпінням чекаємо на вас</h3>
+            <h2 class="text text-vitanja-data">12 травня 2024</h2>
           </div>
         </div>
       </section>
@@ -37,8 +51,8 @@
         <div class="container">
           <div class="container_restoran">
             <span class="text-brand-color">°</span>
-            <h2>Місце проведення</h2>
-            <h3>м. Радівці, Румунія</h3>
+            <h2 class="title title-restoran">Місце проведення</h2>
+            <h3 class="text text-vitanja text-restoran">м. Радівці, Румунія</h3>
             <iframe
               class="map-location"
               src="https://www.google.com/maps/place/725400+%D0%A0%D0%B0%D0%B4%D1%96%D0%B2%D1%86%D1%96,+%D0%A0%D1%83%D0%BC%D1%83%D0%BD%D1%96%D1%8F/@47.8405287,25.8747332,13z/data=!3m1!4b1!4m6!3m5!1s0x473445f42f9d91ab:0x7845bc2de0362dcb!8m2!3d47.8408505!4d25.9138305!16zL20vMDRicjJt?entry=ttu"
@@ -56,8 +70,8 @@
       <section class="palitra-color">
         <div class="container">
           <div class="container_header container_vitanja">
-            <h2>Дрес-код</h2>
-            <h3>
+            <h2 class="title title-vitanja">Дрес-код</h2>
+            <h3 class="text text-vitanja">
               Дрес-код вільний та ми будемо вдячні, якщо при виборі вбрання чи
               аксесуарів на нашу урочистість, Ви притримаєтеся наступної
               палітри:
@@ -71,34 +85,57 @@
         <div class="container">
           <div class="container_header container_program-day">
             <span class="text-brand-color">°</span>
-            <h2>Програма дня</h2>
+            <h2 class="title title-vitanja">Програма дня</h2>
             <ul class="list">
-
               <li class="list-event">
                 <div class="list-event-card">
-                  <img src="./image/dccc42a689acf355ded05b97ca3089c7.jpg" alt="wedding" width="338px" height="298px"/>
-                  <h4>13:00 вінчання</h4>
+                  <img
+                    src="./image/dccc42a689acf355ded05b97ca3089c7.jpg"
+                    alt="wedding"
+                    width="328px"
+                    height="298px"
+                  />
+                  <h4 class="text text-card">Вінчання</h4>
+                  <p class="text title-card">
+                    Таїнство вінчання <br />
+                    відбудеться о 13:00
+                  </p>
                 </div>
               </li>
 
               <li class="list-event">
-                <div class="list-event-card" >
-                <img src="./image/cwitu.jpg" alt="table" width="338px" height="298px"/>
-                <h4>
-                  17:00 ресторан <br>(Nordic Twins Calea Bucovinei FN, <br>
-                  Rădăuți
-                  725400, Румунія)
-                </h4>
-              </div>
+                <div class="list-event-card">
+                  <img
+                    src="./image/cwitu.jpg"
+                    alt="table"
+                    width="328px"
+                    height="298px"
+                  />
+                  <h4 class="text text-card">Весільний банкет</h4>
+                  <p class="text title-card">
+                    Святковий банкет розпочнеться <br />
+                    о 17:00 в ресторані "Nordic Twins" <br />за адресою: Calea
+                    Bucovinei FN, <br />
+                    Rădăuți, Румунія
+                  </p>
+                </div>
               </li>
 
               <li class="list-event">
                 <div class="list-event-card">
-                <img src="./image/f3e73ef2597bae1cda0259a3ec917411aa.jpg" alt="pie" width="338px" height="298px"/>
-                <h4>22:00 розрізання торта</h4>
-              </div>
+                  <img
+                    src="./image/f3e73ef2597bae1cda0259a3ec917411aa.jpg"
+                    alt="pie"
+                    width="328px"
+                    height="298px"
+                  />
+                  <h4 class="text text-card">Весільний торт</h4>
+                  <p class="text title-card">
+                    Розрізання весільного торту<br />
+                    відбудеться о 22:00
+                  </p>
+                </div>
               </li>
-
             </ul>
           </div>
         </div>
@@ -108,13 +145,15 @@
         <div class="container">
           <div class="container_header container_photo">
             <span class="text-brand-color">°</span>
-            <h2>Фотографії</h2>
+            <h2 class="title title-restoran">Фотографії</h2>
             <svg></svg>
-            <h3>
+            <h3 class="text text-vitanja text-restoran">
               Фото з весілля ви можете завантажити з нашого телеграм каналу
             </h3>
-            
-            <a class="button" href="https://t.me/+dLwlILWz8ss2YThi">ВСТУПИТИ В КАНАЛ</a>
+
+            <a class="button" href="https://t.me/+dLwlILWz8ss2YThi"
+              >ВСТУПИТИ В КАНАЛ</a
+            >
           </div>
         </div>
       </section>
@@ -122,8 +161,7 @@
       <section class="wedding-time">
         <div class="container">
           <div class="container_header container_program-day">
-            
-            <h2>До весілля</h2>
+            <h2 class="title title-vitanja">До весілля</h2>
             <!-- відрахунок часу -->
           </div>
         </div>
@@ -132,16 +170,45 @@
       <section>
         <div class="wedding-forma">
           <div class="container">
-             <div class="modal container_header container_photo">
-              <h2>Дорогі гості</h2>
-              <h3>Підтвердіть, будь ласка, свою присутність на нашому святі</h3>
-              <form action="">
-                <input type="text" />
-                <input type="text" />
-                <input type="text" />
-              </form>
-              <p>Чекаємо на вас!</p>
+            <div class="modal container_header container_photo">
+              <h2 class="title title-vitanja">Дорогі гості</h2>
+              <h3 class="text title-card">
+                Підтвердіть, будь ласка, свою присутність на нашому святі
+              </h3>
+              <div>
+                <form action="">
+                  <div class="form-field">
+                    <label for="name">Ваше ім′я
+                      <input type="text" />
+                    </label>
+                  </div>
+                  
+                  <div class="form-field">
+                    <label for="name">Ім′я вашого партнера
+                      <input type="text" />
+                    </label>
+                  </div>
+                  <div class="form-field">
+                    <label for="">Кількість персон
+                      <input type="text" />
+                    </label>
+                  </div>
+
+<div>
+  <p>Ви зможете бути на святі?</p>
+  <input type="radio">Так, звісно
+  <input type="radio">Вибачте, не зможу
+</div>
+
+                  <div>
+                    <button class="form-button">Надіслати</button>
+                  </div>
+                </form>
+              </div>
+              
+             
             </div>
+            <p class="title title-restoran">Чекаємо на вас!</p>
           </div>
         </div>
       </section>
