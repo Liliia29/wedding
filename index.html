@@ -168,8 +168,13 @@
         <div class="container">
           <div class="container_header container_photo">
             <span class="text-brand-color">°</span>
-            <h2 class="title title-restoran">Фотографії</h2>
-            <svg></svg>
+            <h2 class="title title-restoran" style="margin-bottom: 0px;">Фотографії</h2>
+            <img
+              class="w-picture"
+              alt="Illustration"
+              data-fallback-url="//res2.weblium.site/res/5e00bef9e58dd9002120e527/5e05dd1a9c233c0021d8733e_optimized"
+              src="//res2.weblium.site/res/5e00bef9e58dd9002120e527/5e05dd1a9c233c0021d8733e_optimized.webp"
+            />
             <h3 class="text text-vitanja text-restoran">
               Фото з весілля ви можете завантажити з нашого телеграм каналу
             </h3>
@@ -183,10 +188,10 @@
 
       <section class="wedding-time">
         <div class="container">
-          <div class="container_header container_program-day">
-            <h2 class="title title-vitanja">До весілля</h2>
-            <!-- відрахунок часу -->
-          </div>
+          <div class="container_header container_program-day" style="padding-bottom: 0px;">
+            
+            <h2 class="title title-vitanja title-after" >До весілля</h2>
+            <div id="countdown" style="max-width:670px;"></div>
         </div>
       </section>
 
@@ -245,5 +250,52 @@
         </div>
       </section>
     </footer>
+    <script>
+      function updateCountdown(endTime) {
+      const now = new Date();
+      const difference = new Date(endTime) - now;
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      const countdownElement = document.getElementById('countdown');
+      countdownElement.innerHTML = `
+      <div class="number-days">
+        <div class="number">${days}</div>
+        <div class="word">Днів</div>
+        </div>
+        
+        <div class="number-days">
+        <div class="number">${hours}</div>
+        <div class="word">Годин</div>
+      </div>
+
+      <div class="number-days">
+        <div class="number">${minutes}</div>
+        <div class="word">Хвилин</div>
+      </div>
+
+        <div class="number-days">
+        <div class="number">${seconds}</div>
+        <div class="word">Секунд</div>
+      </div>
+      `;
+
+      if (difference <= 0) {
+        countdownElement.innerHTML = '<div class="word">Countdown expired!</div>';
+      }
+    }
+
+  
+      // Встановіть дату завершення обратного відліку
+      const endDate = new Date('2024-05-12T13:00:00').toISOString();
+  
+      // Оновлюємо відлік кожну секунду
+      setInterval(() => {
+        updateCountdown(endDate);
+      }, 1000);
+    </script>
   </body>
 </html>
