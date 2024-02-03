@@ -287,6 +287,7 @@ button:hover{
     color: black;
     padding: 34px 70px;
     text-align: center;
+    max-width: 808px;
 }
 
 .title{
@@ -368,7 +369,7 @@ margin-bottom: 0;
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
 
 .form-field label {
@@ -381,10 +382,12 @@ margin-bottom: 0;
     margin-bottom: 24px;
     margin-left: 0;
     text-align: start;
+    flex-direction: column;
+    display: flex;
 }
 
 .form-field input {
-    width: 630px;
+    max-width: 668px;
     height: 40px;
     border-radius: 4px;
     margin-top: 12px;
@@ -392,8 +395,7 @@ margin-bottom: 0;
     border-style: solid;
     border-width: 2px;
     border-color: #bfada3;
-    background-color: rgba(175, 175, 175, 0.12);
-    
+    background-color: rgba(175, 175, 175, 0.12);    
 }
 
 
