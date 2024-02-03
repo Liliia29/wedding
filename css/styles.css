@@ -252,7 +252,7 @@ button:hover{
     justify-content: center;
     align-items: center;
 
-    max-width: 233px;
+    max-width: 668px;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #99bfc5;
@@ -261,7 +261,7 @@ button:hover{
     margin-top: 40px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
-
+cursor: pointer;
     font-family: 'Abel', sans-serif;
     color: #FFFFFF;
     font-weight: 500;
@@ -386,6 +386,20 @@ margin-bottom: 0;
     display: flex;
 }
 
+/* .form-field p{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    line-height: calc(16 / 12);
+    
+    color: #525252;
+    
+    margin-bottom: 24px;
+    margin-left: 0;
+    text-align: start;
+    flex-direction: column;
+    display: flex;
+} */
+
 .form-field input {
     max-width: 668px;
     height: 40px;
@@ -396,6 +410,29 @@ margin-bottom: 0;
     border-width: 2px;
     border-color: #bfada3;
     background-color: rgba(175, 175, 175, 0.12);    
+}
+
+.form-checkbox{
+    max-width: 668px;
+   display: flex;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    line-height: calc(16 / 12);
+    margin-top: 12px;
+    color: #525252;
+}
+
+.form-checkbox-p{
+     margin: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    display: flex;
+    
+    color: #525252;
+}
+.form-checkbox input{
+    margin-right: 5px;
+    width: 17px 
 }
 
 
