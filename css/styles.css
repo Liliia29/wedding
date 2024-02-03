@@ -68,24 +68,14 @@ ul{
 
 .container_header{
     background-color: rgba(191, 173, 163, 0.58);
-    /* position: absolute; */
-    /* height: 522px;
-    width: 814px; */
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: 42px;
+    padding-bottom: 40px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 24px; */
-    /* margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 30px; */
+    
     text-align: center;
     color: #ffffffff;
-    
 }
 
 .container_vitanja{
@@ -93,15 +83,13 @@ ul{
     color: black;
 }
 
-
-
 .headline {
-    /* padding-top: 308px;
-    padding-bottom: 108px; */
     max-width: 1540px;
-    max-height: 905px;
+    height: 905px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 175px;
+    padding-bottom: 85px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,22 +126,9 @@ ul{
 }
 
 .container_restoran{
-    /* background-color: rgba(191, 173, 163, 0.58); */
-    /* position: absolute; */
-    /* height: 522px;
-    width: 814px; */
-    /* padding-top: 25px;
-    padding-bottom: 20px; */
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 24px; */
-    /* margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 30px; */
     text-align: center;
     color: #ffffffff;
 }
@@ -164,13 +139,6 @@ ul{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 24px; */
-    /* margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 30px; */
     text-align: center;
     color: #ffffffff;
 }
@@ -274,8 +242,8 @@ ul{
 
 .button:hover,
 button:hover{
-    /* border: 1px solid #99bfc5 ;
-    background-color: #99bfc5; */
+    border: 1px solid #99bfc5 ;
+    background-color: #99bfc5;
     
 }
 
@@ -334,9 +302,12 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
 }
+.title_header{
+margin-bottom: 0;
+}
+
 
 .text{
-    /* font-family: "Gothic A1", sans-serif; */
     font-family: 'Old Standard TT', serif;
     color: #FFFFFF;
     font-weight: 500;
@@ -352,6 +323,7 @@ button:hover{
 .title-vitanja{
     color: black;
     font-size: 40px;
+    
 }
 
 .text-vitanja{
@@ -362,6 +334,7 @@ button:hover{
 .text-vitanja-data{
     font-size: 39px;
     color: black;
+    margin-bottom: 0px;
 }
 
 .title-restoran{
@@ -422,3 +395,34 @@ button:hover{
     background-color: rgba(175, 175, 175, 0.12);
     
 }
+
+
+.w-picture{
+    max-width: 300px;
+    height: 100%;
+    position: relative;
+    min-height: 32px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 412px) {
+    .img-color{
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 413px) and (max-width: 767px){
+    .img-color{
+        width: 100%;
+        }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .img-color{
+        width: 100%;
+        }
+}
+  

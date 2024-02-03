@@ -23,9 +23,14 @@
       <section class="headline">
         <div class="container">
           <div class="container_header">
-            <h1 class="title">Дмитро & Юстина</h1>
-            <svg></svg>
-            <h2 class="text">12 травня 2024</h2>
+            <h1 class="title title_header">Дмитро & Юстина</h1>
+            <img
+              class="w-picture"
+              alt="Illustration"
+              data-fallback-url="//res2.weblium.site/res/5e00bef9e58dd9002120e527/5e05dd1a9c233c0021d8733e_optimized"
+              src="//res2.weblium.site/res/5e00bef9e58dd9002120e527/5e05dd1a9c233c0021d8733e_optimized.webp"
+            />
+            <h2 class="text title_header">12 травня 2024</h2>
           </div>
         </div>
       </section>
@@ -37,10 +42,26 @@
           <div class="container_header container_vitanja">
             <span class="text-brand-color">°</span>
             <h2 class="title title-vitanja">Дорогі гості</h2>
-            <h3 class="text text-vitanja">
+            <h3 class="text text-vitanja" style="margin-bottom: 5px">
               раді запросити вас на святкування нашого весілля
             </h3>
-            <svg></svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+              x="0px"
+              y="0px"
+              style="max-width: 100%"
+              height="100px"
+            >
+              <title style="" fill="currentColor">love</title>
+              <g data-name="51-love" style="" fill="currentColor">
+                <path
+                  d="M16,29a1.0027,1.0027,0,0,1-.71-.2949L3.332,16.6709a8.0516,8.0516,0,0,1,0-11.3213A7.8952,7.8952,0,0,1,8.9658,3h.0005a7.8926,7.8926,0,0,1,5.6328,2.35L16,6.76l1.4009-1.41a7.9285,7.9285,0,0,1,11.2671,0,8.0516,8.0516,0,0,1,0,11.3213h0L16.71,28.7051A1.0027,1.0027,0,0,1,16,29ZM8.9658,5A5.9039,5.9039,0,0,0,4.751,6.76a6.0446,6.0446,0,0,0,0,8.5009L16,26.5811l11.249-11.32a6.0446,6.0446,0,0,0,0-8.5009,5.9267,5.9267,0,0,0-8.4292,0l-2.11,2.124a1.0317,1.0317,0,0,1-1.419,0L13.18,6.76A5.9029,5.9029,0,0,0,8.9658,5ZM27.9585,15.9658h0Z"
+                  style=""
+                  fill="currentColor"
+                ></path>
+              </g>
+            </svg>
             <h3 class="text text-vitanja">Ми з нетерпінням чекаємо на вас</h3>
             <h2 class="text text-vitanja-data">12 травня 2024</h2>
           </div>
@@ -53,16 +74,13 @@
             <span class="text-brand-color">°</span>
             <h2 class="title title-restoran">Місце проведення</h2>
             <h3 class="text text-vitanja text-restoran">м. Радівці, Румунія</h3>
-            <iframe
-              class="map-location"
-              src="https://www.google.com/maps/place/725400+%D0%A0%D0%B0%D0%B4%D1%96%D0%B2%D1%86%D1%96,+%D0%A0%D1%83%D0%BC%D1%83%D0%BD%D1%96%D1%8F/@47.8405287,25.8747332,13z/data=!3m1!4b1!4m6!3m5!1s0x473445f42f9d91ab:0x7845bc2de0362dcb!8m2!3d47.8408505!4d25.9138305!16zL20vMDRicjJt?entry=ttu"
-              width="100%"
-              height="220"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42847.22747141645!2d25.87473316915995!3d47.840528730084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473445f42f9d91ab%3A0x7845bc2de0362dcb!2zNzI1NDAwINCg0LDQtNGW0LLRhtGWLCDQoNGD0LzRg9C90ZbRjw!5e0!3m2!1suk!2sua!4v1706967081948!5m2!1suk!2sua" 
+            width="100%" 
+            height="290" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
@@ -76,7 +94,12 @@
               аксесуарів на нашу урочистість, Ви притримаєтеся наступної
               палітри:
             </h3>
-            <img src="./image/palitra.jpg" alt="palitra" width="600px" />
+            <img
+              class="img-color"
+              src="./image/palitra.jpg"
+              alt="palitra"
+              width="600px"
+            />
           </div>
         </div>
       </section>
@@ -178,35 +201,36 @@
               <div>
                 <form action="">
                   <div class="form-field">
-                    <label for="name">Ваше ім′я
-                      <input type="text" />
-                    </label>
-                  </div>
-                  
-                  <div class="form-field">
-                    <label for="name">Ім′я вашого партнера
-                      <input type="text" />
-                    </label>
-                  </div>
-                  <div class="form-field">
-                    <label for="">Кількість персон
+                    <label for="name"
+                      >Ваше ім′я
                       <input type="text" />
                     </label>
                   </div>
 
-<div>
-  <p>Ви зможете бути на святі?</p>
-  <input type="radio">Так, звісно
-  <input type="radio">Вибачте, не зможу
-</div>
+                  <div class="form-field">
+                    <label for="name"
+                      >Ім′я вашого партнера
+                      <input type="text" />
+                    </label>
+                  </div>
+                  <div class="form-field">
+                    <label for=""
+                      >Кількість персон
+                      <input type="text" />
+                    </label>
+                  </div>
+
+                  <div>
+                    <p>Ви зможете бути на святі?</p>
+                    <input type="radio" />Так, звісно
+                    <input type="radio" />Вибачте, не зможу
+                  </div>
 
                   <div>
                     <button class="form-button">Надіслати</button>
                   </div>
                 </form>
               </div>
-              
-             
             </div>
             <p class="title title-restoran">Чекаємо на вас!</p>
           </div>
