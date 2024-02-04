@@ -208,6 +208,14 @@ ul{
     margin-bottom: 50px;
 }
 
+
+@media screen and (min-width: 330px) and (max-width: 767px){
+    .list-event:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
 .list-event-card{
     padding: 32px 16px;
     background: #FFFFFF;
@@ -365,7 +373,7 @@ margin-bottom: 0;
     color: black;
     font-size: 20px;
     padding-top: 10px;
-    font-family: 'Abel', sans-serif;
+    /* font-family: 'Abel', sans-serif; */
 }
 
 
