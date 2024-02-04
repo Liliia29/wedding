@@ -107,7 +107,7 @@ ul{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)), url(../image/pexels-emma-bauso-2253870\ \(1\).jpg);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.66)), url(../image/fon.jpg);
     box-sizing: border-box;
 }
 
@@ -121,7 +121,7 @@ ul{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/pexels-nathan-cowley-1128782.jpg);
+    background-image: linear-gradient(to right, rgba(118,118,118, 0.5), rgba(118,118,118, 0.8)), url(../image/fonbanket.jpg);
     box-sizing: border-box;
 }
 
