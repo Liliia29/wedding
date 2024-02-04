@@ -41,22 +41,6 @@ function clearFormFields() {
     });
 }
 
-function showGooseAnim() {
-    const gusImage = document.createElement('img');
-   
-    gusImage.setAttribute('src', './img/gus-anim.gif');
-    gusImage.classList.add('gus-anim');
-
-    form.appendChild(gusImage);
-
-    setTimeout(() => {
-        gusImage.removeAttribute('src', './img/gus-anim.gif');
-        form.removeChild(gusImage);
-    }, 4000)
-    
-}
-
-
 form.addEventListener('submit', e => {
     e.preventDefault();
     const formData = new FormData(form);
